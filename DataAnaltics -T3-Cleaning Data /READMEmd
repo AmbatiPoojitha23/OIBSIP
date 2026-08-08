@@ -1,0 +1,46 @@
+# Data Cleaning Pipeline: From Messy to Analysis-Ready Dataset
+
+## 📌 Objective
+Demonstrate professional-level data cleaning skills by taking a deliberately messy
+customer dataset and systematically transforming it into a clean, analysis-ready
+dataset — with every decision documented and justified.
+
+## 🛠 Tech Stack
+- Python
+- pandas
+- numpy
+- Jupyter Notebook
+
+## 📂 Files
+| File | Description |
+|---|---|
+| `Task3_Data_Cleaning.ipynb` | Full cleaning pipeline notebook with documentation |
+| `messy_customers.csv` | Raw dataset (524 rows, 11 columns) containing nulls, duplicates, inconsistent formatting, outliers, and dtype issues |
+| `cleaned_customers.csv` | Final cleaned, analysis-ready dataset |
+
+## 🔍 What the Notebook Covers
+1. **Data Quality Report** — nulls per column, duplicate rows, dtype issues, value-range anomalies
+2. **Missing Data Handling** — column-specific strategy (median/mode imputation, explicit "Unknown" flag, or justified row deletion), each with reasoning
+3. **Duplicate Removal** — 24 duplicate/near-duplicate rows identified and removed
+4. **Standardisation** — inconsistent categories (`Gender`, `Country`, `Region`) merged into canonical values; 5 mixed date formats parsed into a single `datetime64` column
+5. **Outlier Detection** — IQR method applied to numeric columns; decisions to cap, remove, or retain documented per column
+6. **Data Type Correction** — every column cast to its logically correct dtype
+7. **Before vs. After Summary** — comparison table of nulls, duplicates, row count, and dtype accuracy
+8. **Export** — cleaned dataset saved to CSV
+
+## 📊 Before vs. After
+| Metric | Before | After |
+|---|---|---|
+| Rows | 524 | 500 |
+| Duplicate rows | 24 | 0 |
+| Columns with wrong dtype | 4 | 0 |
+| Inconsistent category values | Yes (Gender, Country, Region) | Standardised |
+
+## ▶️ How to Run
+```bash
+pip install pandas numpy jupyter
+jupyter notebook Task3_Data_Cleaning.ipynb
+```
+
+## 👩‍💻 Author
+Pooja (Ambati Poojitha)
