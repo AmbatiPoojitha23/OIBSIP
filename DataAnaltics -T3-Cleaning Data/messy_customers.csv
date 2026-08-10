@@ -1,0 +1,525 @@
+CustomerID,CustomerName,Gender,Age,Email,Country,Region,JoinDate,PurchaseAmount,Rating,Phone
+CUST1394,Riya Kapoor,FEMALE,22.0,riya.kapoor@example.com,India ,North,14/09/2021,105.91,2.0,+91-8038438114
+CUST1305,Riya Joshi,f,25.0,riya.joshi@example.com,Germany,West,27-Dec-2021,169.87,4.0,+91-7264064129
+CUST1162,Aditya Sharma,F,62.0,aditya.sharma@example.com,Germany,SOUTH,2021/06/23,133.55,4.0,+91-8252738994
+CUST1101,Sneha Iyer,,25.0,sneha.iyer@example.com,India,South,2023/12/10,37.43,5.0,+91-7081335390
+CUST1360,Aditya Nair,F,52.0,aditya.nair@example.com,USA,West,2023/10/20,288.75,3.0,+91-8737072018
+CUST1456,Ananya Nair,M,32.0,ananya.nair@example.com,india,North,31-May-2024,136.08,1.0,+91-7532817175
+CUST1132,Kabir Gupta,,62.0,kabir.gupta@example.com,UK,West,12-Nov-2022,208.11,,+91-8377246344
+CUST1003,Diya Nair,female,57.0,diya.nair@example.com,USA,South,30/12/2023,85.16,2.0,+91-7240251661
+CUST1316,Rahul Rao,,51.0,rahul.rao@example.com,USA,SOUTH,26-Dec-2022,400.87,1.0,+91-8980446323
+CUST1118,Yash Rao,MALE,47.0,yash.rao@example.com,india,South,08/09/2022,122.27,5.0,+91-8095197958
+CUST1065,  meera kapoor  ,male,29.0,meera.kapoor@example.com,india,North,12-19-2022,279.41,5.0,+91-9635277155
+CUST1499,Kavya Mehta,male,23.0,kavya.mehta@example.com,United States,north,2022-01-18,252.21,2.0,+91-7442660341
+CUST1479,Vivaan Pillai,male,37.0,vivaan.pillai@example.com,india,South,06/03/2022,13355.75,2.0,+91-9918195168
+CUST1357,Aarav Bose,Female,42.0,aarav.bose@example.com,india,north,2022-01-15,174.66,2.0,+91-8349823507
+CUST1246,Yash Chowdhury,FEMALE,999.0,yash.chowdhury@example.com,United States,East,08/06/2024,146.25,3.0,+91-8799990470
+CUST1051,Karan Das,M,40.0,karan.das@example.com,United States,West,09-Apr-2024,211.52,4.0,+91-7678500147
+CUST1388,  rohan sharma  ,,57.0,rohan.sharma@example.com,United States,North,2024-08-11,163.54,3.0,+91-8713336599
+CUST1384,Ananya Iyer,Female,28.0,ananya.iyer@example.com,Australia,West,08-03-2022,142.32,2.0,+91-7649677141
+CUST1115,Rahul Das,m,47.0,rahul.das@example.com,india,East,2022-01-22,135.55,1.0,+91-9550970716
+CUST1138,Yash Verma,Male,37.0,yash.verma@example.com,UK,SOUTH,2022/05/15,114.02,4.0,+91-9823115971
+CUST1244,Kabir Gupta,F,22.0,kabir.gupta@example.com,UK,North,10-Jun-2021,93.93,4.0,+91-9467541927
+CUST1280,Rahul Chowdhury,M,40.0,rahul.chowdhury@example.com,Canada,East,09-Dec-2023,116.2,2.0,+91-7508469555
+CUST1089,Neha Rao,female,20.0,neha.rao@example.com,UK,West,02-25-2024,66.35,4.0,+91-7318051098
+CUST1468,Aditya Nair,Male,54.0,aditya.nair@example.com,USA,,2022-06-29,347.33,1.0,+91-8141756063
+CUST1328,Aditya Bose,,24.0,aditya.bose@example.com,india,South,2021/10/21,306.63,5.0,+91-7378048132
+CUST1495,Rahul Joshi,f,44.0,,india,East,,180.15,4.0,+91-7660182289
+CUST1031,Isha Reddy,F,31.0,isha.reddy@example.com,Canada,East,2023/01/26,279.84,3.0,
+CUST1479,  vivaan pillai  ,male,37.0,vivaan.pillai@example.com,india,South,06/03/2022,13355.75,2.0,+91-9918195168
+CUST1216,Aditya Menon,female,54.0,aditya.menon@example.com,U.S.A,north,01-05-2024,180.77,2.0,+91-9039496086
+CUST1378,SAI DAS,male,41.0,sai.das@example.com,U.S.A,SOUTH,24-Sep-2021,110.34,3.0,+91-8406947246
+CUST1270,Ananya Verma,Male,60.0,ananya.verma@example.com,United States,East,08-Sep-2022,306.0,4.0,+91-9961788388
+CUST1023,Isha Kapoor,male,24.0,isha.kapoor@example.com,Canada,north,27-May-2024,125.16,,+91-9213849513
+CUST1327,Aditya Verma,male,51.0,aditya.verma@example.com,U.S.A,South,2024-04-06,86.4,4.0,
+CUST1377,Yash Rao,Female,22.0,yash.rao@example.com,Germany,SOUTH,27-Jan-2024,343.44,4.0,+91-8720829540
+CUST1188,Aarav Gupta,male,54.0,aarav.gupta@example.com,Australia,West,16/12/2022,560.03,10.0,+91-8607304606
+CUST1013,Divya Bose,FEMALE,37.0,divya.bose@example.com,United States,North,2022/10/05,271.94,5.0,+91-9555656321
+CUST1097,Meera Mehta,Male,32.0,meera.mehta@example.com,Canada,East,10-Apr-2021,147.81,1.0,+91-8135902437
+CUST1154,  kavya nair  ,m,42.0,kavya.nair@example.com,USA,,,117.64,3.0,+91-8784266819
+CUST1165,Divya Iyer,male,31.0,divya.iyer@example.com,india,north,2022-05-27,-87.21,2.0,+91-8598757527
+CUST1032,Meera Kapoor,,22.0,meera.kapoor@example.com,Canada,SOUTH,07-08-2024,355.8,1.0,+91-8591589823
+CUST1220,Aman Rao,MALE,62.0,aman.rao@example.com,India,north,2021/05/10,262.86,3.0,+91-7371537098
+CUST1389,Aditya Sharma,F,44.0,aditya.sharma@example.com,UK,West,06-05-2023,203.56,3.0,+91-8666831822
+CUST1322,Pooja Gupta,Male,28.0,pooja.gupta@example.com,USA,East,14-Nov-2022,170.08,3.0,+91-8245363002
+CUST1483,Pooja Pillai,m,19.0,pooja.pillai@example.com,United States,SOUTH,12/09/2021,130.51,6.0,+91-7528475568
+CUST1202,Yash Bose,Male,36.0,yash.bose@example.com,United States,north,2024/10/21,214.64,,+91-9096471391
+CUST1055,Vikram Chowdhury,male,51.0,vikram.chowdhury@example.com,india,East,25-Nov-2022,224.66,,+91-9393639475
+CUST1268,Rahul Joshi,female,64.0,rahul.joshi@example.com,Germany,SOUTH,06-01-2023,342.42,,+91-8921996951
+CUST1050,Divya Joshi,male,19.0,divya.joshi@example.com,USA,SOUTH,07-25-2021,209.13,3.0,+91-8769748771
+CUST1321,Nikhil Mehta,Male,39.0,nikhil.mehta@example.com,India,East,07-Nov-2021,64.05,4.0,+91-7301075867
+CUST1025,Arjun Mehta,MALE,50.0,,USA,South,2021/12/27,263.7,2.0,+91-9400565848
+CUST1453,Neha Joshi,F,39.0,,India,South,24/10/2024,150.72,,+91-7462498524
+CUST1326,Aditya Pillai,Female,40.0,aditya.pillai@example.com,USA,West,22-Nov-2022,87.1,2.0,+91-8440977557
+CUST1077,ANANYA REDDY,Female,63.0,ananya.reddy@example.com,U.S.A,north,2021/03/19,192.99,5.0,+91-8879792991
+CUST1450,Rahul Reddy,male,62.0,,india,SOUTH,29-Mar-2023,50.77,,+91-7293076437
+CUST1381,Kavya Pillai,F,54.0,kavya.pillai@example.com,Canada,West,,107.16,5.0,+91-7044325089
+CUST1390,Sneha Iyer,f,33.0,sneha.iyer@example.com,Germany,West,2024-07-15,231.0,,+91-9703937817
+CUST1446,Aditya Mehta,Male,150.0,aditya.mehta@example.com,India ,North,22-Sep-2021,326.9,2.0,+91-9855262673
+CUST1476,Priya Rao,Male,46.0,priya.rao@example.com,Australia,West,2024/10/24,278.71,1.0,+91-9957514493
+CUST1273,Rohan Verma,FEMALE,43.0,rohan.verma@example.com,USA,West,25-Sep-2021,107.74,5.0,+91-8040735415
+CUST1146,Ishaan Reddy,female,56.0,ishaan.reddy@example.com,india,SOUTH,05-Jul-2022,193.95,5.0,+91-8585148616
+CUST1271,Yash Kapoor,Female,57.0,yash.kapoor@example.com,United States,North,16-Nov-2022,197.72,,+91-9722524375
+CUST1256,Ishaan Iyer,Female,19.0,ishaan.iyer@example.com,United States,SOUTH,2022/07/11,278.91,3.0,+91-8944620470
+CUST1040,Aman Gupta,male,23.0,aman.gupta@example.com,USA,West,12-Jul-2023,264.91,4.0,+91-8136253459
+CUST1423,Aarav Gupta,Male,32.0,aarav.gupta@example.com,Canada,north,04/07/2024,78.77,,+91-7842186354
+CUST1427,Kavya Verma,F,41.0,kavya.verma@example.com,USA,,2023/06/04,56.77,4.0,+91-7233787344
+CUST1243,Ishaan Iyer,Female,32.0,ishaan.iyer@example.com,U.S.A,West,2022/10/05,19.46,4.0,+91-8039624809
+CUST1259,Nikhil Mehta,F,25.0,nikhil.mehta@example.com,USA,South,08-27-2023,88.21,5.0,+91-9742422573
+CUST1082,Ishaan Iyer,Female,21.0,ishaan.iyer@example.com,india,West,2024/05/07,164.15,,+91-7804507108
+CUST1248,Kavya Mehta,M,46.0,kavya.mehta@example.com,Germany,East,2022/05/29,197.16,3.0,+91-8932111726
+CUST1221,Meera Menon,FEMALE,53.0,,UK,South,2023/03/12,523.6,,+91-7047889782
+CUST1217,Pooja Pillai,,,pooja.pillai@example.com,United States,South,03-23-2021,307.15,,+91-8610432533
+CUST1113,Kabir Pillai,Male,20.0,kabir.pillai@example.com,Germany,north,2021-05-04,432.17,2.0,+91-9774036963
+CUST1480,Diya Joshi,Male,29.0,diya.joshi@example.com,India,north,24-Aug-2024,48.61,2.0,+91-9560468272
+CUST1469,Sneha Mehta,female,62.0,sneha.mehta@example.com,Germany,South,10-Jan-2023,87.43,1.0,+91-7596412178
+CUST1232,Isha Kapoor,,,isha.kapoor@example.com,Australia,South,09-Jul-2023,82.06,5.0,+91-9833169800
+CUST1213,Rahul Verma,f,31.0,rahul.verma@example.com,U.S.A,north,2022-08-13,260.85,3.0,+91-8079501936
+CUST1486,Kabir Reddy,f,37.0,kabir.reddy@example.com,UK,North,05/06/2022,87.38,,+91-9420824631
+CUST1187,Aditya Iyer,Male,29.0,aditya.iyer@example.com,Canada,SOUTH,04-07-2022,110.91,0.0,+91-9581885004
+CUST1333,Meera Kapoor,M,50.0,meera.kapoor@example.com,UK,north,2022/04/16,148.68,3.0,+91-8059371626
+CUST1236,Aman Gupta,female,18.0,aman.gupta@example.com,United States,north,2023/05/18,92.71,5.0,+91-9383326135
+CUST1159,Kavya Gupta,female,37.0,kavya.gupta@example.com,USA,North,2023-10-26,319.66,1.0,+91-8334436786
+CUST1358,Priya Mehta,Female,61.0,priya.mehta@example.com,Australia,North,2021-06-18,393.47,4.0,+91-8838081369
+CUST1237,Sneha Iyer,male,55.0,sneha.iyer@example.com,UK,SOUTH,01-Sep-2021,72.33,3.0,+91-9940181914
+CUST1179,Arjun Nair,M,23.0,arjun.nair@example.com,Canada,north,2021-05-07,195.95,5.0,+91-8662608027
+CUST1090,Rahul Reddy,FEMALE,41.0,rahul.reddy@example.com,Germany,SOUTH,05-13-2021,230.64,,+91-7963110410
+CUST1340,Diya Iyer,Female,54.0,diya.iyer@example.com,U.S.A,North,2022/08/24,508.33,1.0,+91-7997841438
+CUST1421,Ishaan Das,female,24.0,ishaan.das@example.com,India,South,2024/08/16,84.16,,+91-9311256997
+CUST1060,Karan Gupta,F,58.0,karan.gupta@example.com,India,South,24/09/2021,293.28,2.0,
+CUST1235,Neha Kapoor,f,36.0,neha.kapoor@example.com,Canada,North,2022/08/04,231.33,5.0,+91-8610741069
+CUST1477,Priya Iyer,f,47.0,priya.iyer@example.com,India ,East,09/11/2021,144.51,2.0,+91-8284632334
+CUST1350,Karan Mehta,f,46.0,karan.mehta@example.com,USA,SOUTH,,145.38,,+91-8171110251
+CUST1264,Arjun Gupta,m,55.0,arjun.gupta@example.com,Australia,SOUTH,2022/10/22,416.65,1.0,+91-7424143426
+CUST1245,Kabir Mehta,M,61.0,kabir.mehta@example.com,Canada,South,21-Apr-2021,236.81,,+91-7516977385
+CUST1434,Riya Rao,F,33.0,,India,North,02-11-2024,54.74,1.0,+91-7940361784
+CUST1342,Nikhil Pillai,Male,34.0,nikhil.pillai@example.com,United States,SOUTH,02/01/2024,108.54,2.0,+91-9467566824
+CUST1368,Yash Pillai,f,32.0,yash.pillai@example.com,U.S.A,South,12-13-2022,136.76,4.0,+91-8946602034
+CUST1120,Rohan Iyer,Male,48.0,rohan.iyer@example.com,india,SOUTH,22-May-2024,719.46,5.0,+91-8544661869
+CUST1467,Diya Chowdhury,Female,40.0,diya.chowdhury@example.com,India,South,16-Jun-2022,59.02,1.0,+91-8188684621
+CUST1375,Vivaan Pillai,,60.0,vivaan.pillai@example.com,Canada,West,09-26-2022,114.46,4.0,+91-8687817209
+CUST1109,Arjun Das,Female,18.0,arjun.das@example.com,Canada,,02-25-2023,102.38,,+91-9868119543
+CUST1145,Vivaan Kapoor,female,62.0,vivaan.kapoor@example.com,Australia,East,2023-11-20,234.66,3.0,+91-7569902893
+CUST1164,Neha Menon,F,35.0,neha.menon@example.com,USA,SOUTH,2022/09/16,189.6,2.0,+91-7210241300
+CUST1173,Isha Menon,female,30.0,isha.menon@example.com,Australia,East,2021-09-18,62.37,5.0,+91-9625862062
+CUST1319,  yash reddy  ,male,34.0,yash.reddy@example.com,india,East,05-25-2023,192.09,4.0,+91-8136726892
+CUST1030,Rohan Menon,MALE,39.0,rohan.menon@example.com,USA,SOUTH,01-10-2024,153.05,1.0,+91-7087531510
+CUST1022,Sai Nair,MALE,62.0,sai.nair@example.com,Germany,North,08-Sep-2022,193.9,,+91-7747441732
+CUST1277,Aditya Rao,,21.0,aditya.rao@example.com,USA,,22-Aug-2024,309.48,5.0,+91-9150278891
+CUST1031,Isha Reddy,F,31.0,isha.reddy@example.com,Canada,East,2023/01/26,279.84,3.0,
+CUST1306,Aditya Gupta,M,50.0,aditya.gupta@example.com,India,SOUTH,11-02-2021,147.57,3.0,+91-9918683391
+CUST1020,Ishaan Gupta,FEMALE,57.0,ishaan.gupta@example.com,Canada,,01-31-2022,210.99,4.0,+91-8422277848
+CUST1484,Vivaan Reddy,f,18.0,vivaan.reddy@example.com,India,North,2023/11/03,119.75,1.0,+91-8260129779
+CUST1052,Aditya Mehta,female,19.0,aditya.mehta@example.com,Australia,East,12-Feb-2022,135.94,,+91-9827075539
+CUST1249,Riya Nair,male,58.0,riya.nair@example.com,Australia,West,2021/09/06,246.99,3.0,+91-9093769694
+CUST1430,Isha Verma,female,48.0,,U.S.A,South,2021/08/10,265.62,2.0,+91-8808211327
+CUST1228,Riya Bose,FEMALE,53.0,riya.bose@example.com,Canada,East,25/04/2022,91.61,1.0,+91-7443348057
+CUST1261,Isha Reddy,female,56.0,isha.reddy@example.com,United States,SOUTH,03/05/2021,255.63,5.0,+91-8884283304
+CUST1369,Divya Menon,m,41.0,divya.menon@example.com,UK,South,15-Sep-2024,104.5,4.0,+91-7257189761
+CUST1056,Neha Verma,MALE,,neha.verma@example.com,Australia,SOUTH,31/01/2023,484.88,5.0,+91-8994013856
+CUST1458,Vikram Menon,MALE,41.0,,Germany,South,10/01/2024,38.03,5.0,+91-7025953043
+CUST1002,Priya Joshi,MALE,36.0,priya.joshi@example.com,Germany,SOUTH,23/05/2021,150.91,4.0,+91-8566942273
+CUST1494,Ishaan Pillai,m,57.0,ishaan.pillai@example.com,india,South,2021/01/05,154.42,5.0,
+CUST1058,Kavya Das,Female,53.0,kavya.das@example.com,Australia,,29-Jan-2023,206.11,5.0,+91-7260060661
+CUST1380,Kabir Reddy,Female,26.0,kabir.reddy@example.com,India,West,19-Jul-2023,100.49,3.0,+91-7559201866
+CUST1253,Ananya Chowdhury,M,,ananya.chowdhury@example.com,Germany,West,2024/01/13,404.06,5.0,+91-9422294927
+CUST1443,Kavya Menon,MALE,25.0,kavya.menon@example.com,Germany,South,2022-09-18,104.62,4.0,+91-9965754837
+CUST1449,Ishaan Joshi,M,29.0,ishaan.joshi@example.com,USA,SOUTH,21-Mar-2022,119.01,1.0,+91-8761349189
+CUST1278,Rahul Chowdhury,Male,26.0,rahul.chowdhury@example.com,india,South,02-07-2021,235.34,3.0,+91-8662885003
+CUST1242,Nikhil Mehta,,34.0,,USA,West,21/07/2024,246.65,5.0,+91-8131078331
+CUST1074,Vikram Reddy,Male,25.0,vikram.reddy@example.com,USA,South,22-Mar-2021,157.54,3.0,+91-9915843503
+CUST1274,Aditya Iyer,MALE,35.0,aditya.iyer@example.com,India ,East,2022/01/26,140.94,4.0,+91-8002830207
+CUST1438,Neha Mehta,m,43.0,neha.mehta@example.com,india,West,29-Aug-2023,80.56,2.0,+91-7938852920
+CUST1461,Aarav Menon,MALE,53.0,aarav.menon@example.com,Australia,South,02-07-2024,167.62,4.0,+91-9015449824
+CUST1080,Rahul Joshi,m,50.0,rahul.joshi@example.com,Canada,East,24-Feb-2021,61.16,1.0,+91-9791559885
+CUST1365,Neha Menon,f,,neha.menon@example.com,USA,East,24/04/2023,38.14,1.0,+91-7729196312
+CUST1026,Isha Nair,FEMALE,59.0,isha.nair@example.com,U.S.A,South,31/08/2023,91.06,2.0,+91-8227193073
+CUST1204,Kavya Das,F,18.0,kavya.das@example.com,UK,north,09/06/2024,111.24,4.0,+91-8194675791
+CUST1292,  vikram verma  ,FEMALE,49.0,vikram.verma@example.com,Australia,East,2022/06/16,175.04,,+91-9617377805
+CUST1367,Sai Nair,FEMALE,42.0,sai.nair@example.com,United States,West,2022-02-18,209.44,5.0,+91-7394955891
+CUST1344,Aarav Bose,m,54.0,aarav.bose@example.com,india,north,2024/09/27,322.0,4.0,+91-9366355159
+CUST1351,Neha Rao,,47.0,neha.rao@example.com,U.S.A,North,19/11/2023,153.54,3.0,+91-8293095736
+CUST1108,Rahul Iyer,F,40.0,rahul.iyer@example.com,Australia,North,2022/11/22,405.68,4.0,+91-7372535899
+CUST1014,Aditya Das,F,24.0,aditya.das@example.com,United States,north,2021/06/17,298.25,3.0,+91-9884887548
+CUST1147,Rahul Mehta,female,64.0,rahul.mehta@example.com,USA,West,07-24-2024,386.68,2.0,+91-8218023007
+CUST1114,Kavya Nair,MALE,33.0,kavya.nair@example.com,USA,SOUTH,01-10-2024,102.19,2.0,+91-8281459294
+CUST1406,Yash Nair,,39.0,yash.nair@example.com,India,West,2021/09/16,276.07,,
+CUST1155,Kavya Bose,MALE,53.0,kavya.bose@example.com,Australia,North,14/11/2023,99.43,,+91-8878988236
+CUST1059,Arjun Iyer,F,20.0,arjun.iyer@example.com,USA,SOUTH,2024-08-02,113.01,2.0,+91-7889734128
+CUST1193,Kavya Sharma,M,47.0,kavya.sharma@example.com,United States,West,21/10/2021,276.73,,+91-7899290419
+CUST1098,Riya Nair,MALE,19.0,riya.nair@example.com,Canada,East,31-May-2021,425.73,1.0,+91-8602874642
+CUST1304,Arjun Kapoor,MALE,41.0,arjun.kapoor@example.com,india,East,2022/03/03,162.96,,+91-7334553919
+CUST1488,Ananya Pillai,F,40.0,ananya.pillai@example.com,Canada,North,09-10-2021,214.57,5.0,+91-9609050672
+CUST1041,Aman Kapoor,,61.0,aman.kapoor@example.com,Canada,East,19/10/2021,335.57,4.0,+91-8728760924
+CUST1281,Diya Nair,M,57.0,diya.nair@example.com,India ,East,06-27-2023,49.6,5.0,+91-9630074869
+CUST1227,Riya Pillai,male,26.0,riya.pillai@example.com,Germany,SOUTH,2022/05/05,164.8,5.0,+91-7627920145
+CUST1240,Neha Das,MALE,61.0,,USA,north,2022/08/06,125.2,5.0,+91-8734979825
+CUST1079,Nikhil Iyer,MALE,51.0,nikhil.iyer@example.com,Canada,South,28-May-2022,324.22,1.0,+91-8171629709
+CUST1028,Aarav Pillai,f,150.0,aarav.pillai@example.com,India ,West,2024/01/08,143.21,4.0,+91-9916892179
+CUST1403,Kabir Nair,MALE,46.0,kabir.nair@example.com,U.S.A,South,10-Oct-2021,111.51,,
+CUST1387,Ishaan Menon,FEMALE,30.0,,USA,north,06/08/2021,266.4,,+91-7024933829
+CUST1239,Vivaan Menon,M,23.0,vivaan.menon@example.com,U.S.A,North,12/05/2024,89.64,2.0,+91-8715554644
+CUST1267,Ishaan Kapoor,,25.0,ishaan.kapoor@example.com,USA,north,04-Jan-2023,84.85,3.0,+91-9576618444
+CUST1212,Meera Joshi,MALE,19.0,,UK,North,14/02/2022,95.07,3.0,+91-8540529329
+CUST1418,Priya Gupta,m,32.0,priya.gupta@example.com,india,SOUTH,22/10/2023,138.56,4.0,+91-7179495626
+CUST1057,Yash Iyer,,23.0,yash.iyer@example.com,Australia,North,2021/07/19,250.51,5.0,+91-7663670797
+CUST1168,  kabir rao  ,M,25.0,kabir.rao@example.com,Canada,north,02-09-2021,108.07,3.0,+91-8369568735
+CUST1062,Vivaan Mehta,MALE,47.0,vivaan.mehta@example.com,india,North,2022-10-22,130.47,4.0,+91-8948692883
+CUST1436,Divya Reddy,m,50.0,divya.reddy@example.com,USA,South,24-Jan-2022,88.58,1.0,+91-9299819036
+CUST1111,Nikhil Chowdhury,,18.0,nikhil.chowdhury@example.com,United States,North,12-13-2023,203.05,5.0,+91-7706681697
+CUST1084,Ishaan Bose,,63.0,ishaan.bose@example.com,Germany,East,24/01/2024,139.09,2.0,+91-8965718821
+CUST1409,Rahul Verma,M,64.0,rahul.verma@example.com,India,South,2023-09-03,367.63,4.0,+91-9733579809
+CUST1376,  kabir iyer  ,Female,20.0,kabir.iyer@example.com,UK,SOUTH,12-Oct-2022,108.2,4.0,+91-8429031013
+CUST1441,Sai Nair,F,23.0,sai.nair@example.com,Australia,north,2021/10/10,10796.84,4.0,+91-9814528616
+CUST1452,Diya Gupta,Male,49.0,diya.gupta@example.com,India,north,2024-08-05,661.81,,+91-8072452389
+CUST1129,Sneha Gupta,female,40.0,sneha.gupta@example.com,United States,North,20/06/2024,149.33,,+91-8549195708
+CUST1258,Neha Mehta,Male,20.0,neha.mehta@example.com,India,West,27/05/2021,52.01,1.0,+91-8652694369
+CUST1096,Rahul Verma,male,62.0,rahul.verma@example.com,India ,West,24/05/2022,111.48,2.0,+91-9142156616
+CUST1303,Rahul Mehta,Male,24.0,rahul.mehta@example.com,UK,East,2024/05/22,151.42,,+91-8979871930
+CUST1177,Diya Kapoor,MALE,42.0,diya.kapoor@example.com,Canada,north,01-12-2024,149.04,4.0,+91-8836553621
+CUST1382,Sneha Reddy,female,42.0,sneha.reddy@example.com,India ,SOUTH,2024-05-08,124.94,3.0,+91-9569387163
+CUST1497,Aarav Nair,F,33.0,aarav.nair@example.com,India ,North,25-Nov-2021,214.87,4.0,+91-8395382026
+CUST1141,Ananya Chowdhury,MALE,48.0,ananya.chowdhury@example.com,UK,north,14/08/2024,277.08,4.0,+91-7041160563
+CUST1481,Diya Das,MALE,61.0,diya.das@example.com,USA,SOUTH,22-Feb-2023,293.02,,+91-9520503652
+CUST1324,Sneha Rao,Female,54.0,sneha.rao@example.com,india,North,03-17-2021,333.53,,+91-9304513663
+CUST1386,Sneha Verma,M,54.0,sneha.verma@example.com,UK,SOUTH,2023/11/08,170.22,5.0,+91-7330005804
+CUST1492,Riya Reddy,FEMALE,43.0,riya.reddy@example.com,U.S.A,West,2021-01-29,182.26,,+91-9268221266
+CUST1310,Rahul Rao,female,27.0,,india,South,2023/10/25,86.99,3.0,+91-9965663196
+CUST1417,Sai Gupta,f,52.0,sai.gupta@example.com,India ,East,2021/05/05,167.38,1.0,+91-9899521378
+CUST1463,Diya Gupta,MALE,29.0,diya.gupta@example.com,Germany,West,2024-07-24,263.14,1.0,+91-9905225852
+CUST1263,Diya Verma,m,39.0,diya.verma@example.com,Germany,SOUTH,03/11/2023,154.98,3.0,+91-9314800617
+CUST1081,Rohan Menon,M,36.0,rohan.menon@example.com,UK,West,2023-07-08,,5.0,+91-8237386857
+CUST1482,Karan Kapoor,FEMALE,37.0,karan.kapoor@example.com,UK,SOUTH,08/06/2023,144.72,2.0,+91-8691343289
+CUST1445,Priya Nair,f,24.0,priya.nair@example.com,UK,north,2021/12/30,292.18,3.0,+91-9252262370
+CUST1334,Ishaan Nair,MALE,64.0,ishaan.nair@example.com,UK,North,2023-05-06,227.22,4.0,+91-7420903379
+CUST1218,Vikram Menon,m,61.0,vikram.menon@example.com,Canada,North,2021/07/16,182.9,2.0,+91-7446362270
+CUST1451,Aditya Chowdhury,,62.0,aditya.chowdhury@example.com,Australia,South,06/02/2021,287.13,1.0,+91-8537971916
+CUST1283,Kabir Rao,F,43.0,kabir.rao@example.com,USA,West,06-17-2024,79.91,5.0,+91-8343884495
+CUST1414,Pooja Das,Female,44.0,pooja.das@example.com,U.S.A,North,13-Mar-2024,110.85,1.0,+91-9489160101
+CUST1308,Priya Pillai,male,63.0,priya.pillai@example.com,India ,SOUTH,23-Feb-2023,126.01,4.0,+91-8792012815
+CUST1053,Arjun Iyer,Male,43.0,arjun.iyer@example.com,India,SOUTH,10-15-2023,300.13,2.0,+91-9831163141
+CUST1171,Pooja Iyer,M,53.0,pooja.iyer@example.com,Canada,,,36.24,3.0,+91-7608393560
+CUST1200,Aman Gupta,FEMALE,20.0,aman.gupta@example.com,USA,North,08-19-2022,212.7,1.0,+91-7732344664
+CUST1293,Ishaan Bose,male,-5.0,ishaan.bose@example.com,USA,South,14-Jun-2024,332.02,,+91-7291353679
+CUST1139,Kavya Rao,Male,53.0,kavya.rao@example.com,India ,SOUTH,2022-03-16,272.18,2.0,+91-9102317678
+CUST1284,Arjun Kapoor,f,28.0,arjun.kapoor@example.com,India,West,2023-07-25,46.46,1.0,+91-9708614883
+CUST1295,Ananya Mehta,M,62.0,ananya.mehta@example.com,Germany,West,04-25-2021,291.75,5.0,+91-8518681304
+CUST1066,Divya Das,m,,divya.das@example.com,Australia,,07-14-2022,175.4,,+91-9719453060
+CUST1435,Kabir Bose,M,57.0,kabir.bose@example.com,India,East,,151.37,2.0,+91-8599232171
+CUST1455,Aman Kapoor,female,46.0,aman.kapoor@example.com,United States,North,2024/01/04,158.68,,+91-9979507921
+CUST1305,Riya Joshi,f,25.0,riya.joshi@example.com,Germany,West,27-Dec-2021,169.87,4.0,+91-7264064129
+CUST1222,Pooja Pillai,m,61.0,pooja.pillai@example.com,India ,North,09-17-2022,281.41,2.0,+91-7834624758
+CUST1478,  divya joshi  ,M,29.0,divya.joshi@example.com,india,West,03-12-2023,71.98,1.0,+91-9492728925
+CUST1099,  rohan chowdhury  ,female,39.0,rohan.chowdhury@example.com,U.S.A,,03-21-2021,102.5,2.0,+91-7697940975
+CUST1294,Meera Iyer,m,47.0,meera.iyer@example.com,Germany,SOUTH,2024-03-11,129.83,4.0,+91-9773055184
+CUST1148,Rohan Chowdhury,f,27.0,rohan.chowdhury@example.com,India,,06-Jul-2024,,4.0,+91-7566562369
+CUST1015,Aman Iyer,FEMALE,34.0,aman.iyer@example.com,india,north,24/07/2021,199.41,2.0,+91-9333103372
+CUST1163,Kabir Pillai,female,38.0,kabir.pillai@example.com,Germany,East,24/04/2022,144.09,4.0,+91-9301778419
+CUST1300,Priya Sharma,f,49.0,priya.sharma@example.com,U.S.A,South,04/08/2022,136.31,2.0,+91-7216706931
+CUST1046,Sneha Joshi,male,59.0,sneha.joshi@example.com,india,north,2021/10/24,196.3,4.0,+91-8147497835
+CUST1086,Riya Mehta,MALE,63.0,riya.mehta@example.com,Germany,north,01-Jul-2022,119.64,3.0,+91-8269763934
+CUST1037,Kabir Bose,f,53.0,kabir.bose@example.com,USA,East,04-11-2022,,5.0,+91-9739629302
+CUST1439,Meera Rao,MALE,63.0,meera.rao@example.com,U.S.A,North,08-28-2022,134.01,4.0,+91-9136931179
+CUST1385,Pooja Pillai,,41.0,pooja.pillai@example.com,India,North,22-Aug-2023,138.02,3.0,+91-8966062974
+CUST1289,Karan Das,FEMALE,60.0,karan.das@example.com,India,north,2022/07/24,79.6,3.0,+91-9864728338
+CUST1206,Pooja Sharma,Female,62.0,pooja.sharma@example.com,U.S.A,SOUTH,10-07-2024,68.99,5.0,+91-9822511659
+CUST1407,Pooja Kapoor,male,35.0,pooja.kapoor@example.com,U.S.A,North,2023/02/03,198.73,3.0,
+CUST1363,Kavya Joshi,Female,61.0,kavya.joshi@example.com,india,,12-29-2021,45.31,4.0,+91-9899208510
+CUST1172,Nikhil Verma,m,45.0,nikhil.verma@example.com,India ,East,11/09/2022,198.21,3.0,+91-9978819212
+CUST1073,Meera Mehta,FEMALE,58.0,meera.mehta@example.com,USA,north,2023/02/27,61.86,5.0,+91-9042811108
+CUST1465,Vikram Joshi,F,57.0,vikram.joshi@example.com,Australia,north,2024/09/10,116.67,1.0,+91-8479155865
+CUST1104,Neha Chowdhury,male,64.0,neha.chowdhury@example.com,India ,South,2022-08-18,96.11,2.0,+91-9413849014
+CUST1249,  riya nair  ,male,58.0,riya.nair@example.com,Australia,West,2021/09/06,246.99,3.0,+91-9093769694
+CUST1420,Riya Chowdhury,f,63.0,riya.chowdhury@example.com,UK,East,2023/06/04,209.05,3.0,+91-8172582522
+CUST1016,Yash Iyer,f,57.0,yash.iyer@example.com,U.S.A,SOUTH,01/08/2021,120.1,3.0,+91-7874443787
+CUST1330,Sneha Mehta,M,60.0,sneha.mehta@example.com,Germany,West,30-May-2022,138.95,1.0,+91-8010605064
+CUST1091,Priya Gupta,M,44.0,priya.gupta@example.com,United States,north,2021-09-23,75.78,4.0,+91-7316756902
+CUST1088,Diya Sharma,M,20.0,diya.sharma@example.com,UK,SOUTH,2023/01/21,181.91,4.0,+91-9274012889
+CUST1401,Divya Verma,Male,23.0,divya.verma@example.com,USA,north,2024-06-02,306.66,2.0,+91-8254658686
+CUST1140,Vikram Das,female,58.0,vikram.das@example.com,Germany,West,06-18-2024,122.99,2.0,+91-9978287288
+CUST1194,Nikhil Menon,M,21.0,nikhil.menon@example.com,USA,West,21-Jul-2024,194.64,3.0,+91-9280772748
+CUST1205,Vivaan Chowdhury,F,29.0,vivaan.chowdhury@example.com,USA,north,07-Jul-2023,111.65,1.0,
+CUST1102,Rahul Nair,MALE,61.0,rahul.nair@example.com,United States,SOUTH,2021/05/08,155.38,3.0,+91-9289763301
+CUST1238,Yash Sharma,M,60.0,yash.sharma@example.com,UK,north,06-11-2023,187.69,4.0,+91-9566125120
+CUST1464,Aarav Bose,,35.0,aarav.bose@example.com,UK,north,30/03/2024,,4.0,+91-7345093405
+CUST1174,Ishaan Das,f,62.0,ishaan.das@example.com,USA,East,2021-12-10,414.89,1.0,+91-7291176364
+CUST1170,Karan Pillai,MALE,45.0,karan.pillai@example.com,UK,East,2023-01-05,113.82,2.0,+91-9114097693
+CUST1296,Aditya Reddy,male,18.0,aditya.reddy@example.com,U.S.A,north,2024/05/25,124.37,,+91-9134832539
+CUST1157,Diya Nair,M,43.0,diya.nair@example.com,USA,North,11-18-2022,99.01,4.0,+91-9145808627
+CUST1289,Karan Das,FEMALE,60.0,karan.das@example.com,India,north,2022/07/24,79.6,3.0,+91-9864728338
+CUST1070,Arjun Bose,,42.0,,Germany,north,08-01-2023,407.01,5.0,+91-8458198451
+CUST1133,Isha Bose,F,54.0,isha.bose@example.com,Germany,SOUTH,2024/07/20,152.41,3.0,+91-9543595727
+CUST1455,AMAN KAPOOR,female,46.0,aman.kapoor@example.com,United States,North,2024/01/04,158.68,,+91-9979507921
+CUST1313,Meera Menon,f,,meera.menon@example.com,USA,East,06-01-2022,66.58,5.0,+91-8588136431
+CUST1103,Rohan Chowdhury,female,49.0,rohan.chowdhury@example.com,Australia,South,05-20-2022,216.39,2.0,+91-9060740001
+CUST1425,Riya Menon,male,26.0,riya.menon@example.com,U.S.A,SOUTH,2024-02-22,156.1,3.0,+91-8176973938
+CUST1018,Aditya Joshi,M,35.0,aditya.joshi@example.com,UK,North,2022-09-24,182.39,5.0,+91-9665720874
+CUST1150,Sai Mehta,Female,57.0,sai.mehta@example.com,India,,05-Dec-2022,165.97,1.0,+91-8285291868
+CUST1353,Isha Bose,m,48.0,isha.bose@example.com,USA,North,2021-08-27,265.68,5.0,+91-7739624109
+CUST1189,Pooja Das,f,19.0,pooja.das@example.com,USA,East,08-04-2024,180.74,2.0,+91-7243845356
+CUST1361,Sneha Chowdhury,male,63.0,sneha.chowdhury@example.com,india,SOUTH,,312.26,2.0,+91-7655998939
+CUST1301,Priya Rao,Male,36.0,priya.rao@example.com,United States,SOUTH,07-03-2023,73.99,1.0,+91-9000146357
+CUST1034,Rahul Rao,f,43.0,rahul.rao@example.com,USA,West,2022/05/15,168.68,2.0,+91-8109615163
+CUST1181,Diya Reddy,F,54.0,diya.reddy@example.com,India ,SOUTH,10-30-2021,268.7,5.0,+91-8186273502
+CUST1184,Aarav Nair,male,18.0,aarav.nair@example.com,USA,South,03-Oct-2021,84.68,1.0,+91-8748783374
+CUST1207,Neha Bose,FEMALE,43.0,neha.bose@example.com,Germany,SOUTH,08-21-2022,215.9,,+91-8092164263
+CUST1094,Karan Sharma,Male,43.0,karan.sharma@example.com,Australia,north,2023-05-04,191.72,4.0,+91-8744154114
+CUST1487,Divya Das,m,41.0,divya.das@example.com,India ,north,2022-05-22,51.37,1.0,+91-8173612708
+CUST1318,Sai Sharma,Male,34.0,sai.sharma@example.com,Canada,SOUTH,2021-09-07,156.99,,+91-7476076030
+CUST1122,Sai Nair,F,19.0,sai.nair@example.com,Germany,West,07-Aug-2024,166.94,4.0,+91-9756550636
+CUST1352,  kabir das  ,female,56.0,kabir.das@example.com,India,East,03-Feb-2023,103.39,2.0,+91-9399405857
+CUST1078,Vivaan Rao,female,25.0,vivaan.rao@example.com,Australia,West,04-25-2022,165.88,,+91-8982900391
+CUST1061,Kabir Sharma,M,56.0,kabir.sharma@example.com,india,East,18-Nov-2023,94.87,,+91-7133790981
+CUST1493,Divya Kapoor,Male,47.0,divya.kapoor@example.com,U.S.A,South,03/06/2021,529.91,3.0,+91-9916554137
+CUST1125,Ishaan Gupta,f,60.0,ishaan.gupta@example.com,India ,West,30/07/2023,180.86,,+91-8628926576
+CUST1362,Meera Kapoor,f,61.0,meera.kapoor@example.com,india,South,25-Aug-2022,101.94,1.0,
+CUST1442,Aarav Mehta,,26.0,aarav.mehta@example.com,India ,SOUTH,2022/03/06,165.91,3.0,+91-7806794795
+CUST1066,Divya Das,m,,divya.das@example.com,Australia,,07-14-2022,175.4,,+91-9719453060
+CUST1447,Sneha Reddy,f,20.0,sneha.reddy@example.com,india,North,20-Oct-2021,180.15,4.0,+91-7391283036
+CUST1371,Ishaan Verma,M,63.0,ishaan.verma@example.com,india,West,2023-05-15,256.09,3.0,+91-7181386633
+CUST1433,Yash Nair,f,63.0,yash.nair@example.com,Germany,West,2021-03-28,155.37,4.0,+91-8423846528
+CUST1024,Divya Das,f,18.0,divya.das@example.com,Australia,South,,224.08,4.0,+91-9990818727
+CUST1341,Vikram Das,female,47.0,vikram.das@example.com,Germany,SOUTH,22-Dec-2023,277.32,3.0,+91-8237578891
+CUST1370,Vikram Gupta,female,56.0,vikram.gupta@example.com,Australia,West,2022-10-15,252.13,2.0,+91-8743180954
+CUST1362,MEERA KAPOOR,f,61.0,meera.kapoor@example.com,india,South,25-Aug-2022,101.94,1.0,
+CUST1126,Arjun Chowdhury,FEMALE,-5.0,arjun.chowdhury@example.com,India ,East,2024-03-04,214.33,,+91-7199982132
+CUST1431,Sneha Bose,f,55.0,sneha.bose@example.com,India,north,06-12-2023,320.21,3.0,+91-7034711242
+CUST1346,Vikram Rao,F,43.0,vikram.rao@example.com,India,East,26-Mar-2023,283.43,4.0,+91-8907911904
+CUST1178,  aditya iyer  ,,18.0,aditya.iyer@example.com,Canada,East,2021-06-17,314.51,1.0,+91-8593521006
+CUST1460,Ishaan Rao,M,49.0,ishaan.rao@example.com,Canada,West,06-13-2021,123.14,,+91-9070177372
+CUST1395,Kavya Pillai,,48.0,kavya.pillai@example.com,india,West,14/02/2021,144.18,4.0,+91-9445685199
+CUST1223,Priya Reddy,,58.0,priya.reddy@example.com,U.S.A,north,2021-05-30,240.32,3.0,+91-7429690260
+CUST1378,Sai Das,male,41.0,sai.das@example.com,U.S.A,SOUTH,24-Sep-2021,110.34,3.0,+91-8406947246
+CUST1093,Neha Chowdhury,male,56.0,neha.chowdhury@example.com,U.S.A,SOUTH,2022-09-13,288.85,,+91-8450065086
+CUST1069,Nikhil Iyer,male,999.0,nikhil.iyer@example.com,UK,SOUTH,04-17-2022,259.11,1.0,+91-9462732890
+CUST1036,Meera Das,f,54.0,meera.das@example.com,U.S.A,SOUTH,07-19-2023,113.14,,+91-9079617090
+CUST1160,Rohan Verma,m,42.0,rohan.verma@example.com,Australia,South,09-Aug-2023,248.04,2.0,+91-7102693781
+CUST1011,Priya Sharma,MALE,35.0,priya.sharma@example.com,Canada,West,10-15-2021,256.21,5.0,+91-9321807489
+CUST1144,Nikhil Gupta,male,38.0,nikhil.gupta@example.com,USA,North,2022/05/01,248.01,5.0,+91-7888812214
+CUST1475,Karan Nair,M,28.0,karan.nair@example.com,India,north,02-Jan-2024,145.71,2.0,+91-7954090737
+CUST1127,Aditya Das,male,46.0,,Germany,,01-Mar-2022,288.04,4.0,+91-8648606935
+CUST1302,Karan Reddy,Female,45.0,karan.reddy@example.com,india,SOUTH,12/08/2023,400.42,2.0,+91-8394838271
+CUST1009,Divya Das,female,61.0,divya.das@example.com,Canada,North,2024/04/19,144.48,1.0,+91-8022222125
+CUST1405,Meera Rao,MALE,34.0,meera.rao@example.com,Germany,North,2022/07/27,245.56,5.0,+91-8898993224
+CUST1176,Aditya Menon,Male,28.0,aditya.menon@example.com,USA,West,2021/11/26,361.11,4.0,+91-9807341727
+CUST1231,Divya Mehta,FEMALE,47.0,divya.mehta@example.com,India,South,20/03/2024,214.27,3.0,+91-8741421625
+CUST1210,Nikhil Gupta,male,32.0,nikhil.gupta@example.com,UK,north,2023/11/16,106.59,2.0,+91-9948973070
+CUST1128,Nikhil Bose,M,48.0,nikhil.bose@example.com,Germany,West,04-21-2022,122.4,3.0,+91-8935098341
+CUST1143,Diya Menon,FEMALE,29.0,diya.menon@example.com,U.S.A,North,07-03-2022,158.6,2.0,+91-9807498587
+CUST1241,Karan Sharma,male,57.0,karan.sharma@example.com,U.S.A,North,2023/11/18,107.97,5.0,+91-8458831845
+CUST1007,Sai Reddy,female,42.0,sai.reddy@example.com,U.S.A,north,2022-10-26,363.07,1.0,+91-7338258951
+CUST1298,Meera Menon,female,47.0,meera.menon@example.com,U.S.A,South,25-Feb-2022,437.15,1.0,+91-7373988120
+CUST1310,Rahul Rao,female,27.0,,india,South,2023/10/25,86.99,3.0,+91-9965663196
+CUST1254,Kavya Chowdhury,,55.0,kavya.chowdhury@example.com,U.S.A,North,24-Jun-2023,-124.06,2.0,+91-7035721701
+CUST1392,Rahul Das,f,62.0,rahul.das@example.com,U.S.A,,16/09/2024,135.1,3.0,+91-9878744215
+CUST1355,Priya Sharma,,57.0,priya.sharma@example.com,Australia,,2022-09-10,30.48,2.0,
+CUST1008,Aditya Bose,FEMALE,59.0,aditya.bose@example.com,UK,West,2024/01/31,136.64,,+91-8713658874
+CUST1156,Riya Pillai,F,56.0,riya.pillai@example.com,india,North,26/09/2022,139.98,3.0,+91-8113457241
+CUST1027,Ishaan Iyer,female,25.0,ishaan.iyer@example.com,Canada,South,15-Mar-2022,131.58,4.0,+91-9987248494
+CUST1266,Pooja Bose,MALE,53.0,pooja.bose@example.com,United States,North,2021-05-25,498.71,5.0,+91-9821263164
+CUST1314,Diya Iyer,F,40.0,diya.iyer@example.com,Germany,South,04/05/2024,92.61,,+91-7905622824
+CUST1064,Ananya Das,FEMALE,19.0,ananya.das@example.com,USA,East,2021/09/24,217.32,,+91-7220959215
+CUST1255,Yash Joshi,FEMALE,32.0,,India ,north,2022/04/19,38.16,2.0,+91-8625035499
+CUST1337,Pooja Kapoor,F,43.0,pooja.kapoor@example.com,India,SOUTH,2023-01-16,29.23,,+91-7879233902
+CUST1153,Sai Chowdhury,f,62.0,sai.chowdhury@example.com,India,South,11/10/2023,301.85,3.0,+91-9441175185
+CUST1048,Vivaan Nair,FEMALE,29.0,vivaan.nair@example.com,UK,North,2021/09/16,110.41,4.0,+91-9812264367
+CUST1208,Isha Gupta,F,47.0,isha.gupta@example.com,Canada,North,2023/04/29,309.43,5.0,+91-9277897510
+CUST1287,Aman Nair,Female,41.0,aman.nair@example.com,U.S.A,South,2023-02-15,69.19,2.0,+91-7220376885
+CUST1001,Ishaan Mehta,f,38.0,ishaan.mehta@example.com,UK,East,07-24-2022,216.0,3.0,+91-9303082117
+CUST1269,Arjun Sharma,Male,53.0,arjun.sharma@example.com,Australia,,03-31-2022,117.94,5.0,+91-9455054143
+CUST1265,Vivaan Kapoor,,64.0,vivaan.kapoor@example.com,United States,East,2022-03-29,,1.0,+91-8550165596
+CUST1347,Riya Rao,FEMALE,27.0,riya.rao@example.com,India ,West,2021/10/13,66.06,3.0,+91-8613930214
+CUST1354,Yash Iyer,Male,20.0,yash.iyer@example.com,UK,East,2021-09-14,32.75,4.0,
+CUST1095,Meera Mehta,Female,24.0,meera.mehta@example.com,india,north,10-22-2021,186.55,3.0,+91-8038256217
+CUST1490,Riya Iyer,Male,25.0,riya.iyer@example.com,Canada,West,07-27-2023,214.81,,+91-8310770039
+CUST1042,Kabir Chowdhury,m,56.0,,India ,north,,177.82,1.0,+91-8157541038
+CUST1336,Rahul Mehta,M,60.0,rahul.mehta@example.com,Germany,SOUTH,,52.54,3.0,+91-9630672799
+CUST1116,Vivaan Mehta,f,22.0,vivaan.mehta@example.com,India,South,2024-01-11,85.28,5.0,+91-9888502524
+CUST1045,Nikhil Sharma,F,23.0,nikhil.sharma@example.com,india,SOUTH,31/05/2024,15.37,1.0,+91-7661300942
+CUST1161,Ishaan Chowdhury,female,55.0,,Germany,,09-08-2024,333.48,1.0,+91-8201840395
+CUST1408,Rohan Gupta,f,28.0,rohan.gupta@example.com,U.S.A,South,2022/12/19,113.81,3.0,+91-8551632248
+CUST1117,Rohan Gupta,male,56.0,rohan.gupta@example.com,India ,North,15/02/2024,154.24,,+91-8368954072
+CUST1288,Kavya Iyer,male,50.0,kavya.iyer@example.com,UK,South,,188.72,1.0,+91-7931466076
+CUST1077,Ananya Reddy,Female,63.0,ananya.reddy@example.com,U.S.A,north,2021/03/19,192.99,5.0,+91-8879792991
+CUST1440,Rohan Iyer,MALE,,rohan.iyer@example.com,USA,North,2022/08/27,197.01,1.0,
+CUST1063,Vikram Kapoor,MALE,24.0,vikram.kapoor@example.com,U.S.A,South,31/05/2023,285.62,3.0,+91-8607610633
+CUST1338,Ananya Nair,F,18.0,ananya.nair@example.com,United States,SOUTH,06/03/2022,128.03,1.0,+91-9088328665
+CUST1416,Nikhil Verma,M,55.0,nikhil.verma@example.com,United States,South,02-25-2021,110.65,4.0,+91-7222814829
+CUST1412,Sai Reddy,FEMALE,,sai.reddy@example.com,India,north,09-27-2022,143.21,2.0,+91-8932432000
+CUST1230,Sneha Menon,FEMALE,-5.0,sneha.menon@example.com,Canada,SOUTH,30/07/2022,151.82,4.0,+91-9068098256
+CUST1297,Ishaan Nair,FEMALE,64.0,ishaan.nair@example.com,UK,North,18-Feb-2022,535.68,3.0,+91-9248964968
+CUST1186,Yash Gupta,male,20.0,yash.gupta@example.com,USA,South,02-Feb-2023,121.78,2.0,+91-9958590550
+CUST1359,Sai Pillai,Female,52.0,sai.pillai@example.com,Germany,SOUTH,04-Oct-2023,168.2,4.0,+91-7724660700
+CUST1199,Yash Rao,male,33.0,yash.rao@example.com,india,North,2021-01-27,74.54,5.0,+91-8099048201
+CUST1364,Sneha Das,m,47.0,sneha.das@example.com,UK,West,24-Jun-2022,42.15,1.0,+91-8573719360
+CUST1121,Vikram Joshi,FEMALE,33.0,vikram.joshi@example.com,Germany,East,2022/10/03,-168.39,5.0,+91-7654602021
+CUST1496,Kavya Verma,FEMALE,,kavya.verma@example.com,india,East,17/01/2023,208.17,4.0,+91-8863844675
+CUST1459,Aditya Pillai,FEMALE,37.0,aditya.pillai@example.com,UK,South,2021/07/07,86.92,,+91-7848411797
+CUST1307,Meera Joshi,MALE,25.0,meera.joshi@example.com,United States,,12/11/2023,137.59,1.0,+91-8542943951
+CUST1489,Priya Joshi,Male,37.0,priya.joshi@example.com,Germany,SOUTH,25-Dec-2023,-98.41,2.0,+91-9437654971
+CUST1158,Karan Reddy,female,45.0,karan.reddy@example.com,USA,north,2021-01-06,37.6,1.0,+91-9816224192
+CUST1085,Vivaan Iyer,F,41.0,vivaan.iyer@example.com,Australia,north,28/08/2023,240.65,3.0,+91-8718080443
+CUST1225,Kavya Iyer,female,50.0,kavya.iyer@example.com,india,East,25/09/2023,140.63,5.0,+91-9691307645
+CUST1262,Riya Gupta,Male,50.0,riya.gupta@example.com,India,West,19-Feb-2024,280.75,3.0,+91-9381646593
+CUST1331,Riya Mehta,f,56.0,riya.mehta@example.com,Germany,North,30/10/2022,309.88,4.0,+91-8872026192
+CUST1426,Priya Das,m,19.0,priya.das@example.com,Canada,,05-11-2023,,1.0,+91-9961590241
+CUST1076,Arjun Reddy,f,39.0,arjun.reddy@example.com,Germany,SOUTH,15-Dec-2023,37.2,3.0,+91-7972994972
+CUST1413,Divya Mehta,M,49.0,divya.mehta@example.com,United States,South,2023-03-21,185.1,2.0,+91-8326492387
+CUST1397,Ishaan Bose,Male,48.0,ishaan.bose@example.com,USA,SOUTH,2023-05-05,92.98,1.0,+91-9015372326
+CUST1087,Meera Mehta,f,40.0,meera.mehta@example.com,india,,24-Dec-2022,248.85,,+91-9918046336
+CUST1100,ARJUN KAPOOR,male,39.0,arjun.kapoor@example.com,india,East,08-31-2023,197.3,,+91-9563707272
+CUST1182,Vikram Mehta,Male,38.0,vikram.mehta@example.com,India ,South,2021/10/31,253.59,1.0,+91-8476906868
+CUST1105,Yash Iyer,M,59.0,yash.iyer@example.com,India,north,2022-04-08,205.05,10.0,+91-7678351760
+CUST1424,Aman Rao,Female,61.0,aman.rao@example.com,U.S.A,SOUTH,2024/03/04,155.17,3.0,+91-9246611301
+CUST1049,Ananya Verma,FEMALE,19.0,ananya.verma@example.com,India ,East,13-Oct-2024,96.61,5.0,+91-9710815922
+CUST1404,Ananya Menon,Male,21.0,ananya.menon@example.com,Germany,South,2023-06-08,213.18,,+91-9232431040
+CUST1005,Kavya Joshi,f,19.0,kavya.joshi@example.com,U.S.A,North,13/08/2021,144.87,4.0,+91-7049310608
+CUST1017,Divya Das,male,21.0,divya.das@example.com,India,West,07-21-2022,360.63,5.0,+91-7480494664
+CUST1234,Isha Sharma,m,43.0,isha.sharma@example.com,UK,north,03-Jan-2021,151.74,2.0,+91-8637398296
+CUST1472,Karan Menon,m,42.0,karan.menon@example.com,U.S.A,West,2021-12-11,188.54,,+91-7125506598
+CUST1372,Riya Mehta,Male,24.0,riya.mehta@example.com,Australia,West,2023-01-15,181.22,5.0,+91-9241790651
+CUST1422,Aditya Menon,,20.0,aditya.menon@example.com,india,East,02-10-2023,193.81,1.0,+91-8909446514
+CUST1106,Kavya Das,FEMALE,34.0,kavya.das@example.com,Germany,North,03/07/2021,63.02,2.0,+91-7156078445
+CUST1134,Pooja Reddy,,52.0,pooja.reddy@example.com,Canada,East,22-May-2021,157.96,2.0,+91-7317677825
+CUST1429,Meera Kapoor,,35.0,meera.kapoor@example.com,India,West,03-Apr-2023,70.12,4.0,+91-9663784672
+CUST1226,Aditya Bose,Female,47.0,aditya.bose@example.com,United States,north,2022/03/12,24.5,2.0,+91-9532315957
+CUST1214,Sai Kapoor,FEMALE,62.0,sai.kapoor@example.com,Germany,north,20/05/2024,210.73,2.0,+91-7174522691
+CUST1190,Isha Rao,,35.0,,india,East,2023-05-08,164.91,,+91-9043267129
+CUST1470,Aarav Kapoor,Female,31.0,aarav.kapoor@example.com,Canada,north,2024/09/11,146.72,3.0,+91-7196513141
+CUST1320,Diya Mehta,Female,56.0,diya.mehta@example.com,UK,North,22-Oct-2021,44.13,1.0,+91-8076303124
+CUST1282,Ishaan Kapoor,F,27.0,ishaan.kapoor@example.com,india,north,08-19-2023,342.62,2.0,+91-7064485730
+CUST1029,Arjun Bose,M,52.0,arjun.bose@example.com,U.S.A,,2023-03-18,123.07,3.0,+91-8403792057
+CUST1169,Isha Gupta,Male,53.0,isha.gupta@example.com,india,north,2022-04-22,29.08,,+91-7942365574
+CUST1180,Vikram Rao,m,20.0,vikram.rao@example.com,Canada,North,2023-03-20,429.87,5.0,+91-8928610987
+CUST1100,Arjun Kapoor,male,39.0,arjun.kapoor@example.com,india,East,08-31-2023,197.3,,+91-9563707272
+CUST1197,Aman Iyer,m,19.0,aman.iyer@example.com,USA,North,09-Apr-2021,297.13,2.0,+91-8293285336
+CUST1209,Riya Sharma,m,34.0,riya.sharma@example.com,U.S.A,South,30/03/2024,258.75,4.0,+91-9974331558
+CUST1135,Rahul Kapoor,FEMALE,56.0,rahul.kapoor@example.com,India ,East,2024-01-05,171.77,5.0,+91-9909719639
+CUST1340,Diya Iyer,Female,54.0,diya.iyer@example.com,U.S.A,North,2022/08/24,508.33,1.0,+91-7997841438
+CUST1457,Meera Gupta,MALE,48.0,meera.gupta@example.com,Germany,South,2021-11-07,45.87,3.0,+91-7170112802
+CUST1198,Kavya Das,Female,64.0,kavya.das@example.com,UK,North,2023-11-14,56.26,3.0,+91-8537262560
+CUST1373,Divya Pillai,f,25.0,divya.pillai@example.com,USA,North,2022/10/04,176.87,2.0,+91-8179171816
+CUST1166,Divya Das,,28.0,divya.das@example.com,USA,,13-May-2021,360.9,1.0,+91-7721508131
+CUST1410,Kavya Mehta,FEMALE,43.0,kavya.mehta@example.com,U.S.A,SOUTH,2023/07/27,153.64,,+91-7510096343
+CUST1136,Aman Rao,female,40.0,,Australia,SOUTH,2023/11/29,365.47,,+91-7105495798
+CUST1285,Vivaan Gupta,male,24.0,vivaan.gupta@example.com,Australia,West,2022-08-26,319.5,1.0,+91-9514478795
+CUST1335,Rahul Mehta,F,62.0,rahul.mehta@example.com,India ,South,2023-01-05,,5.0,
+CUST1396,Arjun Sharma,female,,arjun.sharma@example.com,India ,SOUTH,2024/03/31,174.81,,+91-9095520970
+CUST1131,Aarav Iyer,MALE,58.0,aarav.iyer@example.com,Canada,South,02-19-2023,81.83,4.0,+91-8551019709
+CUST1039,Meera Verma,F,39.0,meera.verma@example.com,United States,north,19-Feb-2023,190.47,1.0,+91-7892442253
+CUST1215,Kavya Iyer,m,55.0,kavya.iyer@example.com,India,SOUTH,11-14-2021,48.57,3.0,+91-8537965898
+CUST1043,Karan Sharma,M,18.0,karan.sharma@example.com,UK,West,2024-07-24,124.57,2.0,+91-8237886015
+CUST1054,Divya Pillai,M,55.0,divya.pillai@example.com,Australia,North,01/04/2024,245.56,2.0,+91-8571346130
+CUST1485,Divya Chowdhury,FEMALE,23.0,divya.chowdhury@example.com,Germany,north,2022-03-06,179.45,2.0,+91-8542173127
+CUST1299,Rohan Mehta,Male,21.0,rohan.mehta@example.com,India,East,08-01-2024,190.11,,+91-8175261501
+CUST1485,Divya Chowdhury,FEMALE,23.0,divya.chowdhury@example.com,Germany,north,2022-03-06,179.45,2.0,+91-8542173127
+CUST1304,Arjun Kapoor,MALE,41.0,arjun.kapoor@example.com,india,East,2022/03/03,162.96,,+91-7334553919
+CUST1035,Rohan Iyer,f,49.0,,Canada,SOUTH,13/04/2023,132.46,1.0,+91-8044987715
+CUST1315,Karan Bose,female,37.0,karan.bose@example.com,India,West,2023/09/03,64.48,5.0,
+CUST1399,Isha Gupta,male,58.0,isha.gupta@example.com,UK,north,05-Oct-2023,60.32,1.0,+91-9907383020
+CUST1309,Ananya Iyer,,999.0,,india,South,23-Jun-2021,44.83,5.0,+91-9371036817
+CUST1276,Sai Chowdhury,m,61.0,sai.chowdhury@example.com,UK,SOUTH,2021/02/07,164.64,5.0,+91-7035795037
+CUST1124,Sneha Das,FEMALE,,sneha.das@example.com,India,East,2024-01-03,78.54,2.0,+91-7639509845
+CUST1142,Sneha Reddy,F,36.0,sneha.reddy@example.com,india,West,02-May-2023,90.11,3.0,+91-8239829538
+CUST1110,Priya Mehta,male,49.0,priya.mehta@example.com,Australia,SOUTH,28/08/2022,402.8,5.0,+91-9022191192
+CUST1323,Aman Gupta,M,38.0,aman.gupta@example.com,Australia,North,15-Jul-2024,159.19,2.0,+91-8024285839
+CUST1332,Ananya Gupta,f,51.0,ananya.gupta@example.com,Canada,East,2022-02-19,216.53,4.0,+91-7944263862
+CUST1393,Rahul Kapoor,male,59.0,rahul.kapoor@example.com,Canada,SOUTH,2024-05-22,193.2,,+91-9824873407
+CUST1466,Ananya Iyer,F,53.0,ananya.iyer@example.com,UK,North,18-Jul-2021,229.08,3.0,+91-9089378173
+CUST1107,Arjun Menon,FEMALE,43.0,arjun.menon@example.com,Australia,North,2022-09-04,33.48,5.0,+91-9165576952
+CUST1473,Diya Joshi,female,19.0,diya.joshi@example.com,Australia,SOUTH,2021/09/10,394.04,2.0,+91-9579898495
+CUST1012,Aarav Verma,F,31.0,aarav.verma@example.com,India ,South,,108.1,,+91-9387006772
+CUST1272,Nikhil Das,MALE,25.0,nikhil.das@example.com,United States,north,29-Mar-2022,45.41,4.0,+91-7567747634
+CUST1047,Aarav Iyer,male,32.0,aarav.iyer@example.com,UK,West,2022/12/08,117.18,2.0,+91-8764265618
+CUST1203,Priya Joshi,MALE,35.0,priya.joshi@example.com,India,SOUTH,2023/12/11,92.66,5.0,+91-7409061875
+CUST1454,Rohan Nair,m,58.0,rohan.nair@example.com,India ,North,04-21-2022,90.78,2.0,+91-8195966387
+CUST1119,Sai Nair,,53.0,sai.nair@example.com,U.S.A,South,2021/04/16,174.03,,+91-7897171779
+CUST1021,Aarav Verma,male,41.0,aarav.verma@example.com,USA,East,2022/10/05,233.67,10.0,+91-9880327491
+CUST1402,Yash Mehta,m,32.0,yash.mehta@example.com,Germany,South,09-Sep-2021,-137.94,4.0,+91-7366076664
+CUST1434,Riya Rao,F,33.0,,India,North,02-11-2024,54.74,1.0,+91-7940361784
+CUST1083,Divya Das,Female,45.0,divya.das@example.com,U.S.A,north,,146.92,,+91-8480915452
+CUST1130,Priya Verma,Male,25.0,priya.verma@example.com,USA,South,2023/06/02,365.82,5.0,+91-8654584280
+CUST1474,Aditya Das,female,40.0,aditya.das@example.com,India ,north,14/06/2023,362.89,5.0,+91-7498672432
+CUST1168,Kabir Rao,M,25.0,kabir.rao@example.com,Canada,north,02-09-2021,108.07,3.0,+91-8369568735
+CUST1329,Aman Pillai,male,-5.0,aman.pillai@example.com,U.S.A,north,2023/01/12,186.54,1.0,+91-9943099512
+CUST1229,Yash Chowdhury,,23.0,yash.chowdhury@example.com,U.S.A,West,2024/08/31,201.36,2.0,+91-8481902553
+CUST1084,ISHAAN BOSE,,63.0,ishaan.bose@example.com,Germany,East,24/01/2024,139.09,2.0,+91-8965718821
+CUST1286,Yash Chowdhury,M,60.0,,india,SOUTH,2022-02-18,92.46,,+91-8930151511
+CUST1123,Vivaan Chowdhury,Male,41.0,vivaan.chowdhury@example.com,India,West,09/10/2021,125.14,1.0,+91-9647930485
+CUST1033,Aditya Chowdhury,,26.0,aditya.chowdhury@example.com,USA,East,25-Jul-2024,195.47,3.0,+91-9076605983
+CUST1067,Aarav Verma,m,36.0,aarav.verma@example.com,Germany,East,2024-03-08,216.78,4.0,+91-8898565319
+CUST1004,Ishaan Pillai,Male,39.0,ishaan.pillai@example.com,United States,East,12-Mar-2022,167.95,,+91-9510777721
+CUST1411,Isha Pillai,MALE,51.0,isha.pillai@example.com,U.S.A,East,09-17-2022,67.22,4.0,+91-8217547222
+CUST1019,Riya Reddy,F,25.0,riya.reddy@example.com,India ,,12-Nov-2022,262.88,,+91-9021598245
+CUST1219,Sai Chowdhury,MALE,30.0,sai.chowdhury@example.com,UK,,2022-11-11,388.77,2.0,+91-8937569973
+CUST1379,Meera Gupta,Female,52.0,meera.gupta@example.com,United States,North,18/02/2024,100.37,2.0,+91-9578667149
+CUST1067,Aarav Verma,m,36.0,aarav.verma@example.com,Germany,East,2024-03-08,216.78,4.0,+91-8898565319
+CUST1419,Aarav Pillai,FEMALE,44.0,aarav.pillai@example.com,UK,,09-15-2023,195.98,5.0,+91-7693277728
+CUST1356,Ananya Pillai,male,21.0,ananya.pillai@example.com,U.S.A,north,2022-05-11,-64.28,2.0,+91-9306940725
+CUST1149,Aman Iyer,M,61.0,aman.iyer@example.com,Germany,East,22/09/2024,165.51,4.0,+91-7004665657
+CUST1224,Meera Kapoor,Female,62.0,meera.kapoor@example.com,United States,SOUTH,2024/04/11,133.29,,+91-9752380581
+CUST1247,Yash Menon,female,52.0,yash.menon@example.com,United States,north,04-14-2022,178.66,,+91-7758522476
+CUST1471,Riya Nair,,42.0,riya.nair@example.com,United States,East,27-May-2023,101.78,3.0,+91-9233616746
+CUST1151,Ananya Rao,M,44.0,ananya.rao@example.com,United States,,08-24-2024,118.14,,+91-7431494396
+CUST1322,Pooja Gupta,Male,28.0,pooja.gupta@example.com,USA,East,14-Nov-2022,170.08,3.0,+91-8245363002
+CUST1317,Nikhil Das,F,52.0,nikhil.das@example.com,Germany,South,2022-10-04,275.36,4.0,+91-8081885552
+CUST1491,Aman Pillai,Female,55.0,aman.pillai@example.com,USA,North,07/05/2022,142.03,1.0,+91-9184774084
+CUST1291,  rohan nair  ,MALE,45.0,rohan.nair@example.com,USA,South,09-07-2021,61.36,1.0,+91-9701442510
+CUST1233,Vikram Iyer,M,25.0,vikram.iyer@example.com,United States,West,2023-03-01,315.14,2.0,+91-9640323269
+CUST1010,Kabir Das,FEMALE,20.0,kabir.das@example.com,United States,South,27/08/2023,204.44,,+91-9775320897
+CUST1279,Aarav Chowdhury,male,46.0,aarav.chowdhury@example.com,UK,West,2023/12/03,106.06,4.0,+91-8414267186
+CUST1071,Ishaan Nair,M,46.0,ishaan.nair@example.com,Canada,East,21/12/2022,81.57,,+91-9697019445
+CUST1252,Arjun Verma,Female,42.0,arjun.verma@example.com,India,north,2021/06/20,198.02,2.0,+91-7542934161
+CUST1092,Ananya Nair,,43.0,ananya.nair@example.com,UK,north,03/08/2024,261.61,2.0,+91-7968387506
+CUST1090,Rahul Reddy,FEMALE,41.0,rahul.reddy@example.com,Germany,SOUTH,05-13-2021,230.64,,+91-7963110410
+CUST1349,Ishaan Sharma,Male,26.0,ishaan.sharma@example.com,india,SOUTH,13-Aug-2022,141.85,4.0,+91-8553745264
+CUST1415,Rahul Verma,m,61.0,rahul.verma@example.com,India,South,,38.69,5.0,+91-8097598306
+CUST1374,Rahul Rao,male,62.0,rahul.rao@example.com,USA,West,08-31-2023,213.26,3.0,+91-9601954488
+CUST1400,Diya Reddy,m,41.0,diya.reddy@example.com,United States,north,04-04-2022,244.82,2.0,+91-9595403573
+CUST1192,Riya Pillai,male,50.0,riya.pillai@example.com,United States,North,2023/08/22,119.53,1.0,+91-8281428200
+CUST1257,Kabir Bose,f,57.0,kabir.bose@example.com,U.S.A,,29/07/2021,184.9,4.0,+91-9140593461
+CUST1119,Sai Nair,,53.0,sai.nair@example.com,U.S.A,South,2021/04/16,174.03,,+91-7897171779
+CUST1339,Vikram Chowdhury,Female,60.0,vikram.chowdhury@example.com,Australia,East,2024-10-10,84.14,2.0,+91-7469718772
+CUST1072,Sneha Mehta,f,52.0,sneha.mehta@example.com,United States,north,10-24-2022,74.97,3.0,+91-7318646463
+CUST1195,Sai Sharma,,,sai.sharma@example.com,Germany,North,02-25-2023,209.52,,+91-8862577974
+CUST1343,Ananya Mehta,male,64.0,ananya.mehta@example.com,Germany,South,03/02/2023,237.78,2.0,+91-7670243704
+CUST1137,Sneha Verma,male,58.0,sneha.verma@example.com,UK,East,2023/07/22,120.68,3.0,
+CUST1260,Meera Gupta,female,50.0,meera.gupta@example.com,USA,West,,215.66,1.0,+91-9956683572
+CUST1038,Nikhil Mehta,Female,30.0,nikhil.mehta@example.com,india,North,02-Jun-2022,53.67,,+91-9417377633
+CUST1462,Sai Reddy,F,,sai.reddy@example.com,Germany,West,03-20-2023,143.68,1.0,+91-9429270402
+CUST1201,Rohan Nair,FEMALE,44.0,rohan.nair@example.com,Germany,South,22-Aug-2021,81.55,,+91-7569132884
+CUST1498,Nikhil Menon,MALE,45.0,nikhil.menon@example.com,India ,North,02-13-2021,277.97,3.0,+91-7034483818
+CUST1290,Karan Pillai,f,37.0,karan.pillai@example.com,India ,South,2024/10/08,216.15,3.0,+91-8285460026
+CUST1448,Meera Das,FEMALE,59.0,meera.das@example.com,India ,South,2023/05/01,388.51,5.0,+91-7187537466
+CUST1189,Pooja Das,f,19.0,pooja.das@example.com,USA,East,08-04-2024,180.74,2.0,+91-7243845356
+CUST1251,Isha Das,MALE,31.0,isha.das@example.com,Germany,north,12/07/2023,26.51,,+91-7716875001
+CUST1112,Rohan Pillai,m,56.0,rohan.pillai@example.com,india,north,02-Jul-2023,94.57,,+91-8700586760
+CUST1437,Meera Menon,M,50.0,meera.menon@example.com,UK,north,2023-09-29,163.72,4.0,+91-9186819192
+CUST1183,Kavya Iyer,MALE,63.0,kavya.iyer@example.com,UK,South,20-Jun-2024,90.43,,+91-8599620611
+CUST1152,Ananya Menon,Female,36.0,ananya.menon@example.com,Germany,South,22/07/2022,183.83,,+91-8295574037
+CUST1312,Rohan Chowdhury,Male,18.0,rohan.chowdhury@example.com,Germany,East,2022/08/16,261.28,4.0,+91-9818872419
+CUST1325,Ananya Bose,f,29.0,ananya.bose@example.com,india,West,20/06/2024,,1.0,+91-9538508163
+CUST1191,Divya Nair,m,44.0,divya.nair@example.com,U.S.A,North,08-23-2023,185.9,3.0,+91-7959186138
+CUST1044,Divya Rao,m,58.0,divya.rao@example.com,USA,West,2023-11-20,55.18,3.0,+91-8898551433
+CUST1444,Pooja Iyer,female,45.0,,UK,East,2024/03/09,109.68,4.0,+91-9039154519
+CUST1275,Sai Das,female,29.0,sai.das@example.com,India,north,10-30-2021,,1.0,+91-7909997553
+CUST1006,Divya Bose,Female,38.0,divya.bose@example.com,Germany,West,11-20-2021,350.31,,+91-9615507143
+CUST1250,Nikhil Bose,FEMALE,54.0,nikhil.bose@example.com,UK,SOUTH,2022/11/22,231.0,2.0,+91-8148785172
+CUST1311,Aditya Reddy,m,40.0,aditya.reddy@example.com,india,north,03-Jun-2024,194.6,5.0,+91-7226663762
+CUST1075,Isha Sharma,,34.0,isha.sharma@example.com,India ,SOUTH,2024/09/06,204.56,3.0,+91-9843848856
+CUST1000,Aman Verma,Male,56.0,aman.verma@example.com,USA,north,2021-06-28,111.92,2.0,+91-8801823908
+CUST1428,Rohan Chowdhury,F,30.0,rohan.chowdhury@example.com,USA,north,2021-09-13,148.62,2.0,+91-7235316246
+CUST1391,Aman Chowdhury,Female,50.0,aman.chowdhury@example.com,india,South,2022/09/08,135.31,5.0,+91-7405807234
+CUST1383,Yash Bose,Male,,yash.bose@example.com,India ,South,20/02/2024,153.33,2.0,+91-8859418733
+CUST1432,Vikram Kapoor,,28.0,vikram.kapoor@example.com,U.S.A,West,06/12/2022,82.73,4.0,+91-9575959464
+CUST1068,Kavya Iyer,F,50.0,kavya.iyer@example.com,Australia,north,09-24-2023,190.9,,+91-7589418977
+CUST1167,  karan rao  ,MALE,49.0,karan.rao@example.com,Germany,South,18/07/2022,146.37,4.0,+91-7376761189
+CUST1366,Aarav Chowdhury,female,35.0,aarav.chowdhury@example.com,U.S.A,East,2021/02/11,132.39,1.0,+91-9899580938
+CUST1345,Priya Iyer,Male,23.0,priya.iyer@example.com,USA,north,2024/08/06,332.84,5.0,+91-7375281077
+CUST1398,Neha Mehta,F,30.0,neha.mehta@example.com,United States,SOUTH,09-07-2024,260.23,,+91-7695895299
+CUST1185,Riya Mehta,m,49.0,riya.mehta@example.com,UK,SOUTH,2023/11/04,159.84,1.0,+91-8547799171
+CUST1348,Aditya Sharma,MALE,32.0,aditya.sharma@example.com,india,South,13-Feb-2022,575.24,5.0,+91-8990510491
+CUST1211,Neha Joshi,,39.0,neha.joshi@example.com,UK,SOUTH,2024-07-28,247.76,,+91-9293095089
+CUST1047,Aarav Iyer,male,32.0,aarav.iyer@example.com,UK,West,2022/12/08,117.18,2.0,+91-8764265618
+CUST1196,Divya Reddy,female,22.0,divya.reddy@example.com,UK,West,09/02/2021,224.57,,
+CUST1175,Neha Iyer,Female,50.0,neha.iyer@example.com,India ,West,10-07-2023,149.65,,+91-8938264714
